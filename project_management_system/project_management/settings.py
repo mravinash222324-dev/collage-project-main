@@ -76,16 +76,16 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'project_management.wsgi.application'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
-}
+# Database Configuration
+print(f"🔍 Checking DATABASE_URL... Present: {'DATABASE_URL' in os.environ}, Length: {len(os.environ.get('DATABASE_URL', ''))}")
 
-database_url = os.environ.get("DATABASE_URL")
-if database_url and database_url.startswith("postgres"):
-    DATABASES['default'] = dj_database_url.parse(database_url, conn_max_age=600)
+DATABASES = {
+    'default': dj_database_url.config(
+        default=f"sqlite:///{BASE_DIR / 'db.sqlite3'}",
+        conn_max_age=600,
+        ssl_require='DATABASE_URL' in os.environ  # Enable SSL only if using external DB
+    )
+}
 
 AUTH_PASSWORD_VALIDATORS = [
     { 'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator' },
