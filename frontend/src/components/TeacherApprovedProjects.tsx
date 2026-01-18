@@ -129,7 +129,7 @@ const TeacherApprovedProjects: React.FC = () => {
   const [selectedProject, setSelectedProject] = useState<ApprovedProject | null>(null);
 
   // grading state
-  const [gradingLoading, setGradingLoading] = useState<number | null>(null);
+
 
   // --- Chat Modal State (uses ChatInterface) ---
   const {
@@ -238,52 +238,7 @@ const TeacherApprovedProjects: React.FC = () => {
   };
 
   // --- Analyze Docs function for final report (improved error handling + refresh) ---
-  const handleAutoGrade = async (projectId: number) => {
-    setGradingLoading(projectId);
-    try {
-      await api.post(`/ projects / ${projectId} /report/grade / `, {});
-      toast({ title: 'Analysis Complete!', status: 'success' });
 
-      // Reload projects to show the new feedback
-      const response = await api.get('/teacher/approved-projects/');
-      const data = Array.isArray(response.data) ? response.data : [];
-      const sortedProjects = [...data].sort((a: ApprovedProject, b: ApprovedProject) => {
-        const order: Record<string, number> = { 'In Progress': 0, 'Completed': 1, 'Archived': 2 };
-        const valA = order[a.status] !== undefined ? order[a.status] : 10;
-        const valB = order[b.status] !== undefined ? order[b.status] : 10;
-        return valA - valB;
-      });
-      setProjects(sortedProjects);
-
-      // Also update selected project if it's the one being graded
-      if (selectedProject && selectedProject.id === projectId) {
-        const updated = (response.data as ApprovedProject[]).find(p => p.id === projectId);
-        if (updated) setSelectedProject(updated);
-      }
-
-    } catch (err: any) {
-      if (err.response && err.response.status === 429) {
-        toast({
-          title: 'AI Busy',
-          description: 'Please wait 1 minute before analyzing another document.',
-          status: 'warning',
-          duration: 5000,
-          isClosable: true,
-        });
-      } else {
-        toast({
-          title: 'Analysis Failed',
-          description: 'Check if report is uploaded.',
-          status: 'error',
-          duration: 4000,
-          isClosable: true,
-        });
-        console.error('Analyze Docs error:', err);
-      }
-    } finally {
-      setGradingLoading(null);
-    }
-  };
 
   // --- Status Change (Complete/Archive) ---
   const handleStatusChange = async (projectId: number, newStatus: 'Completed' | 'Archived') => {

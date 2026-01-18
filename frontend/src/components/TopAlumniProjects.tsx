@@ -22,7 +22,7 @@ import {
 import { motion } from 'framer-motion';
 import * as Lucide from "lucide-react";
 
-const { Star, Trophy, Crown, Medal, TrendingUp, Search, X } = Lucide;
+const { Trophy, Crown, Medal, TrendingUp, Search } = Lucide;
 
 // --- Interfaces & Animation Variants ---
 interface Project {

@@ -54,19 +54,15 @@ import {
   XCircle,
   LogOut,
   BookOpen,
-  GraduationCap,
   TrendingUp,
   MessageSquare,
   AlertTriangle,
   MonitorPlay,
-  Cpu,
   ShieldCheck,
   User,
   Settings,
   Bell,
-  Server,
-  Database,
-  HardDrive,
+
 } from "lucide-react";
 
 // Sub-components
@@ -465,10 +461,10 @@ const TeacherDashboard: React.FC = () => {
 
         {/* --- Primary Content Split: 2/3 Action, 1/3 Feed --- */}
         <SimpleGrid columns={{ base: 1, lg: 3 }} spacing={8}>
-          
+
           {/* LEFT: Priority Actions & Quick Links */}
           <Box gridColumn={{ lg: "span 2" }}>
-            
+
             {/* 1. Quick Action Buttons */}
             <Heading size="md" mb={6} color="gray.300" display="flex" alignItems="center" gap={2}>
               <Icon as={TrendingUp} color="cyan.400" /> Management Console
@@ -491,7 +487,7 @@ const TeacherDashboard: React.FC = () => {
                 borderRadius="xl"
               >
                 <Box p={3} bg="blue.500" borderRadius="lg" boxShadow="0 0 15px blue">
-                   <Icon as={BookOpen} size={24} color="white" />
+                  <Icon as={BookOpen} size={24} color="white" />
                 </Box>
                 <VStack align="start" spacing={0}>
                   <Text fontSize="lg" fontWeight="bold">Assignments</Text>
@@ -516,7 +512,7 @@ const TeacherDashboard: React.FC = () => {
                 borderRadius="xl"
               >
                 <Box p={3} bg="green.500" borderRadius="lg" boxShadow="0 0 15px green">
-                   <Icon as={CheckSquare} size={24} color="white" />
+                  <Icon as={CheckSquare} size={24} color="white" />
                 </Box>
                 <VStack align="start" spacing={0}>
                   <Text fontSize="lg" fontWeight="bold">Submissions</Text>
@@ -527,43 +523,43 @@ const TeacherDashboard: React.FC = () => {
 
             {/* 2. Priority Inbox (Replaces System Status) */}
             <Box>
-               <Heading size="md" mb={6} color="gray.300" display="flex" alignItems="center" gap={2}>
-                 <Icon as={AlertTriangle} color="orange.400" /> Priority Items
-               </Heading>
-               
-               <VStack spacing={4} align="stretch">
-                 {/* High Priority Quality Alerts */}
-                 {submissions.filter(s => (s.audit_security_score && s.audit_security_score < 70)).slice(0, 2).map(sub => (
-                   <HStack key={sub.id} p={4} bg="rgba(245, 101, 101, 0.1)" borderRadius="xl" borderLeft="4px solid" borderLeftColor="red.500" spacing={4}>
-                      <Icon as={AlertTriangle} color="red.400" boxSize={6} />
-                      <Box flex={1}>
-                        <Text fontWeight="bold" color="red.200">Quality Alert: {sub.title}</Text>
-                        <Text fontSize="sm" color="gray.400">Security Score: {sub.audit_security_score}/100. Review advised.</Text>
-                      </Box>
-                      <Button size="sm" colorScheme="red" variant="outline" onClick={() => navigate(`/teacher/submissions/${sub.id}`)}>Review</Button>
-                   </HStack>
-                 ))}
+              <Heading size="md" mb={6} color="gray.300" display="flex" alignItems="center" gap={2}>
+                <Icon as={AlertTriangle} color="orange.400" /> Priority Items
+              </Heading>
 
-                 {/* New Unassigned Projects */}
-                 {unappointedSubmissions.slice(0, 3).map(sub => (
-                   <HStack key={sub.id} p={4} bg="rgba(236, 201, 75, 0.1)" borderRadius="xl" borderLeft="4px solid" borderLeftColor="yellow.500" spacing={4}>
-                      <Icon as={User} color="yellow.400" boxSize={6} />
-                      <Box flex={1}>
-                        <Text fontWeight="bold" color="yellow.200">Unassigned Project: {sub.title}</Text>
-                        <Text fontSize="sm" color="gray.400">Student is waiting for a mentor.</Text>
-                      </Box>
-                      <Button size="sm" colorScheme="yellow" variant="solid" onClick={() => setActiveView('unappointed')}>View</Button>
-                   </HStack>
-                 ))}
+              <VStack spacing={4} align="stretch">
+                {/* High Priority Quality Alerts */}
+                {submissions.filter(s => (s.audit_security_score && s.audit_security_score < 70)).slice(0, 2).map(sub => (
+                  <HStack key={sub.id} p={4} bg="rgba(245, 101, 101, 0.1)" borderRadius="xl" borderLeft="4px solid" borderLeftColor="red.500" spacing={4}>
+                    <Icon as={AlertTriangle} color="red.400" boxSize={6} />
+                    <Box flex={1}>
+                      <Text fontWeight="bold" color="red.200">Quality Alert: {sub.title}</Text>
+                      <Text fontSize="sm" color="gray.400">Security Score: {sub.audit_security_score}/100. Review advised.</Text>
+                    </Box>
+                    <Button size="sm" colorScheme="red" variant="outline" onClick={() => navigate(`/teacher/submissions/${sub.id}`)}>Review</Button>
+                  </HStack>
+                ))}
 
-                 {/* Empty State */}
-                 {submissions.every(s => !s.audit_security_score || s.audit_security_score >= 70) && unappointedSubmissions.length === 0 && (
-                   <Flex p={8} direction="column" align="center" justify="center" bg="whiteAlpha.50" borderRadius="xl" border="1px dashed" borderColor="gray.700">
-                     <Icon as={CheckCircle} color="green.500" boxSize={8} mb={2} />
-                     <Text color="gray.400">No urgent items requiring attention.</Text>
-                   </Flex>
-                 )}
-               </VStack>
+                {/* New Unassigned Projects */}
+                {unappointedSubmissions.slice(0, 3).map(sub => (
+                  <HStack key={sub.id} p={4} bg="rgba(236, 201, 75, 0.1)" borderRadius="xl" borderLeft="4px solid" borderLeftColor="yellow.500" spacing={4}>
+                    <Icon as={User} color="yellow.400" boxSize={6} />
+                    <Box flex={1}>
+                      <Text fontWeight="bold" color="yellow.200">Unassigned Project: {sub.title}</Text>
+                      <Text fontSize="sm" color="gray.400">Student is waiting for a mentor.</Text>
+                    </Box>
+                    <Button size="sm" colorScheme="yellow" variant="solid" onClick={() => setActiveView('unappointed')}>View</Button>
+                  </HStack>
+                ))}
+
+                {/* Empty State */}
+                {submissions.every(s => !s.audit_security_score || s.audit_security_score >= 70) && unappointedSubmissions.length === 0 && (
+                  <Flex p={8} direction="column" align="center" justify="center" bg="whiteAlpha.50" borderRadius="xl" border="1px dashed" borderColor="gray.700">
+                    <Icon as={CheckCircle} color="green.500" boxSize={8} mb={2} />
+                    <Text color="gray.400">No urgent items requiring attention.</Text>
+                  </Flex>
+                )}
+              </VStack>
             </Box>
 
           </Box>
@@ -585,7 +581,7 @@ const TeacherDashboard: React.FC = () => {
               <Heading size="md" mb={6} color="gray.300" display="flex" alignItems="center" gap={2}>
                 <Icon as={Activity} color="purple.400" /> Live Feed
               </Heading>
-              
+
               <VStack align="stretch" spacing={0} overflowY="auto" flex={1} sx={{ '&::-webkit-scrollbar': { width: '4px' }, '&::-webkit-scrollbar-thumb': { background: '#4A5568' } }}>
                 {activities.length === 0 ? (
                   <Text color="gray.500" fontSize="sm" textAlign="center" mt={10}>No recent activity.</Text>
@@ -596,26 +592,26 @@ const TeacherDashboard: React.FC = () => {
                       {index !== activities.length - 1 && (
                         <Box position="absolute" left="19px" top="36px" bottom="0" w="2px" bg="whiteAlpha.100" />
                       )}
-                      
+
                       <HStack align="flex-start" spacing={4}>
-                         <Box
-                           mt={1}
-                           boxSize="40px"
-                           borderRadius="full"
-                           bg={activity.type === 'message' ? 'blue.500' : activity.type === 'system' ? 'purple.500' : 'green.500'}
-                           display="flex"
-                           alignItems="center"
-                           justifyContent="center"
-                           boxShadow={`0 0 10px ${activity.type === 'message' ? 'blue' : activity.type === 'system' ? 'purple' : 'green'}`}
-                           zIndex={1}
-                         >
-                            <Icon as={activity.type === 'message' ? MessageSquare : activity.type === 'system' ? Bell : CheckCircle} size={18} color="white" />
-                         </Box>
-                         <Box pt={1}>
-                            <Text fontSize="sm" fontWeight="bold" color="gray.200">{activity.type.toUpperCase()}</Text>
-                            <Text fontSize="sm" color="gray.400" mb={1}>{activity.text}</Text>
-                            <Text fontSize="xs" color="gray.600">{formatTimeAgo(activity.time)}</Text>
-                         </Box>
+                        <Box
+                          mt={1}
+                          boxSize="40px"
+                          borderRadius="full"
+                          bg={activity.type === 'message' ? 'blue.500' : activity.type === 'system' ? 'purple.500' : 'green.500'}
+                          display="flex"
+                          alignItems="center"
+                          justifyContent="center"
+                          boxShadow={`0 0 10px ${activity.type === 'message' ? 'blue' : activity.type === 'system' ? 'purple' : 'green'}`}
+                          zIndex={1}
+                        >
+                          <Icon as={activity.type === 'message' ? MessageSquare : activity.type === 'system' ? Bell : CheckCircle} size={18} color="white" />
+                        </Box>
+                        <Box pt={1}>
+                          <Text fontSize="sm" fontWeight="bold" color="gray.200">{activity.type.toUpperCase()}</Text>
+                          <Text fontSize="sm" color="gray.400" mb={1}>{activity.text}</Text>
+                          <Text fontSize="xs" color="gray.600">{formatTimeAgo(activity.time)}</Text>
+                        </Box>
                       </HStack>
                     </Box>
                   ))

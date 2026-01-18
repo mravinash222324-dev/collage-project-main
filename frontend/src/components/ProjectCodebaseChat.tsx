@@ -19,7 +19,7 @@ import {
     Spinner,
     Avatar
 } from '@chakra-ui/react';
-import { Send, MessageSquare, Bot, User } from 'lucide-react';
+import { Send, Bot, User } from 'lucide-react';
 import axios from 'axios';
 // import ReactMarkdown from 'react-markdown'; // Optional if you have it
 

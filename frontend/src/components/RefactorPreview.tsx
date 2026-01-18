@@ -21,7 +21,7 @@ import {
 } from '@chakra-ui/react';
 import ReactDiffViewer, { DiffMethod } from 'react-diff-viewer-continued';
 import Editor from '@monaco-editor/react';
-import { Copy, CheckCircle, Terminal } from 'lucide-react';
+import { Copy, Terminal } from 'lucide-react';
 import api from '../config/api';
 
 interface RefactorPreviewProps {

@@ -19,20 +19,19 @@ import {
     Switch,
     Divider,
     Badge,
-    Grid,
     SimpleGrid,
     useColorModeValue,
     Spinner,
     Alert,
     AlertIcon
 } from '@chakra-ui/react';
-import { motion, AnimatePresence } from 'framer-motion';
-import { User, Shield, Zap, Bell, Key, LogOut, Check, X } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { User, Shield, Zap, Bell, Key, LogOut } from 'lucide-react';
 import api from '../config/api';
 
 // Motion Components
 const MotionBox = motion(Box);
-const MotionText = motion(Text);
+
 
 // --- Interfaces ---
 interface UserProfile {
