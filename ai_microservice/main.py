@@ -11,7 +11,7 @@ import uvicorn
 from google import genai
 from google import genai
 from google.genai import types, errors
-from google.api_core import exceptions # Keep for legacy if needed/safety
+# from google.api_core import exceptions # Removed to fix ModuleNotFoundError
 import json
 import re
 import os
@@ -135,7 +135,7 @@ gemini_manager = GeminiManager()
 gemini_model = gemini_manager.model 
 
 import time
-from google.api_core import exceptions
+# from google.api_core import exceptions
 
 def generate_with_retry(model, prompt, retries=5, delay=10):
     """
