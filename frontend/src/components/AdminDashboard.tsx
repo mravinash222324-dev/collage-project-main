@@ -72,12 +72,7 @@ interface DashboardData {
 
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:8000';
 
-const toNumericId = (v: GroupUserRef): number => {
-  if (typeof v === 'number') return v;
-  if (typeof v === 'string') return Number(v);
-  const raw = (v as any)?.id; // Simplification
-  return typeof raw === 'number' ? raw : Number(raw);
-};
+
 
 // Robust normalizer
 const safeNum = (v: any) => {

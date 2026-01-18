@@ -1,13 +1,13 @@
 // frontend/src/components/AlumniPortal.tsx
 import React, { useState, useEffect } from 'react';
 import api from '../config/api';
-import { useNavigate } from 'react-router-dom';
+
 
 const AlumniPortal: React.FC = () => {
     const [projects, setProjects] = useState([]);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState('');
-    const navigate = useNavigate();
+
 
     const fetchProjects = async () => {
         try {

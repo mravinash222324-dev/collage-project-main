@@ -46,35 +46,7 @@ interface LayoutProps {
 }
 
 
-const SidebarItem = ({ icon: Icon, label, active, onClick, collapsed }: any) => {
-    return (
-        <Tooltip label={collapsed ? label : ''} placement="right" hasArrow bg="gray.700" color="white">
-            <HStack
-                as="button"
-                onClick={onClick}
-                w="full"
-                py={3}
-                px={collapsed ? 2 : 4}
-                justify={collapsed ? 'center' : 'flex-start'}
-                borderRadius="xl"
-                transition="all 0.2s"
-                bg={active ? 'blue.500' : 'transparent'}
-                color={active ? 'white' : 'gray.400'}
-                _hover={{ bg: active ? 'blue.600' : 'whiteAlpha.100', color: active ? 'white' : 'gray.200', transform: 'translateX(2px)' }}
-            >
-                <Icon size={22} strokeWidth={active ? 2.5 : 2} />
-                {!collapsed && (
-                    <Text fontWeight={active ? '600' : '500'} fontSize="md">
-                        {label}
-                    </Text>
-                )}
-                {active && !collapsed && (
-                    <Box ml="auto" w="6px" h="6px" borderRadius="full" bg="white" />
-                )}
-            </HStack>
-        </Tooltip>
-    );
-};
+
 
 const Layout: React.FC<LayoutProps> = ({ children, userRole, isFullScreen = false }) => {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -222,10 +194,10 @@ const Layout: React.FC<LayoutProps> = ({ children, userRole, isFullScreen = fals
             </Flex>
 
             {/* Navigation Items - Scrollable */}
-            <VStack 
-                spacing={2} 
-                align="stretch" 
-                flex={1} 
+            <VStack
+                spacing={2}
+                align="stretch"
+                flex={1}
                 overflowY="auto"
                 sx={{
                     '&::-webkit-scrollbar': { width: '4px' },
@@ -249,10 +221,10 @@ const Layout: React.FC<LayoutProps> = ({ children, userRole, isFullScreen = fals
                             transition="all 0.2s"
                             bg={location.pathname === item.path ? theme.active : 'transparent'}
                             color={location.pathname === item.path ? 'white' : 'gray.400'}
-                            _hover={{ 
-                                bg: location.pathname === item.path ? theme.hover : 'whiteAlpha.100', 
-                                color: location.pathname === item.path ? 'white' : 'gray.200', 
-                                transform: 'translateX(2px)' 
+                            _hover={{
+                                bg: location.pathname === item.path ? theme.hover : 'whiteAlpha.100',
+                                color: location.pathname === item.path ? 'white' : 'gray.200',
+                                transform: 'translateX(2px)'
                             }}
                         >
                             <item.icon size={22} strokeWidth={location.pathname === item.path ? 2.5 : 2} />
@@ -340,12 +312,12 @@ const Layout: React.FC<LayoutProps> = ({ children, userRole, isFullScreen = fals
             </Drawer>
 
             {/* --- Main Content Area --- */}
-            <Flex 
-                direction="column" 
-                flex={1} 
-                position="relative" 
-                w="full" 
-                minW="0" 
+            <Flex
+                direction="column"
+                flex={1}
+                position="relative"
+                w="full"
+                minW="0"
                 zIndex={1}
                 ml={{ base: 0, md: collapsed ? '80px' : '260px' }}
                 transition="margin-left 0.3s ease"
@@ -362,7 +334,7 @@ const Layout: React.FC<LayoutProps> = ({ children, userRole, isFullScreen = fals
                     bg="transparent"
                 >
                     <Flex align="center">
-                         <Box display={{ base: 'block', md: 'none' }} mr={4}>
+                        <Box display={{ base: 'block', md: 'none' }} mr={4}>
                             <IconButton icon={<MenuIcon />} aria-label="Menu" onClick={onOpen} variant="ghost" color="white" />
                         </Box>
                         {/* Page Title (Dynamic) */}

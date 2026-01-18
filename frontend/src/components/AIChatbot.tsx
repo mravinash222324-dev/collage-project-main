@@ -10,24 +10,19 @@ import {
   Input,
   Text,
   Spinner,
-  Center,
-  useToast,
-  IconButton,
-  InputGroup,
-  InputRightElement,
-  Flex,
-  Icon,
-  Avatar,
-  Textarea,
   Container,
+  Flex,
+  IconButton,
+  Icon,
+  useToast,
 } from '@chakra-ui/react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import * as Lucide from "lucide-react";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import Layout from './Layout';
 
-const { Send, Bot, Sparkles, User, Zap, StopCircle } = Lucide;
+const { Send, Bot, Sparkles, User, StopCircle } = Lucide;
 
 // --- Interfaces & Animation Variants ---
 interface Message {
@@ -46,7 +41,7 @@ const mainContainerVariants = {
 };
 
 const MotionBox = motion(Box);
-const MotionFlex = motion(Flex);
+
 
 // --- Chat Message Component (Redesigned) ---
 const ChatMessage: React.FC<{ message: Message }> = ({ message }) => {
