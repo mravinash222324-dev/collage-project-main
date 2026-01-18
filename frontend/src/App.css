@@ -1,0 +1,49 @@
+/* ================================
+   APP CONTAINER – FULLSCREEN FIX
+==================================*/
+.App {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden;
+  /* Prevent horizontal scrollbars */
+  position: relative;
+}
+
+/* Prevent layout overflow on small devices */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+}
+
+/* Optional: smooth background transition for Chakra themes */
+body {
+  background: linear-gradient(135deg, #e0f7fa, #ffffff, #e3f2fd);
+  background-size: 400% 400%;
+  animation: bgShift 10s ease infinite;
+  font-family: 'Inter', Arial, sans-serif;
+  color: #2d3748;
+}
+
+/* Background gradient animation */
+@keyframes bgShift {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}

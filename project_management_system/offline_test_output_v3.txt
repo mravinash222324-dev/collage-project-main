@@ -1,0 +1,14 @@
+--- Offline Hugging Face Similarity Check ---
+Attempting to load SentenceTransformer manually...
+✅ Manual load success!
+✅ Gemini API has been mocked (disabled).
+
+Analyzing:
+Title: AI college project management system
+Abstract: The AI-Based College Project Management System is a full-cycle platform that streamlines the lifecycle of student projects in higher education. It supports idea submission, AI-assisted evaluation, teacher review, progress tracking, viva preparation, and archiving. The system combines web frontends, a RESTful backend, an RDBMS, and ML/AI services that provide automated evaluations, summarization, plagiarism scanning, and recommendation features.
+Against: Smart Traffic Light
+
+Running analysis (using local HF model)...
+
+❌ FAILURE: No similarity detected.
+DEBUG: Actual Score was: 0.0648

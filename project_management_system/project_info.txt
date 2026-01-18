@@ -1,0 +1,16 @@
+Smart Waste Management System|In Progress|group a
+ai project manager|Completed|group a
+Test Team Project|In Progress|Test Group
+Debug Project|In Progress|None
+AI Driven Traffic Control|Completed|None
+Blockchain Voting System|Completed|None
+Smart Agriculture IoT|Completed|None
+VR Classroom Experience|Completed|None
+Quantum Cryptography for IoT|Completed|None
+Sustainable Smart Cities with AI|Completed|None
+DeFi Lending Protocol on Polygon|Completed|None
+Autonomous Drone Reforestation|Completed|None
+Privacy-Preserving Healthcare Analytics|Completed|None
+Real-time AR Education Platform|Completed|None
+Low-Code AI Platform for SME|Completed|None
+Edge Computing for Self-Driving Cars|Completed|None

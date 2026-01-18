@@ -1,0 +1,39 @@
+src/components/AdminDashboard.tsx(75,7): error TS6133: 'toNumericId' is declared but its value is never read.
+src/components/AIChatbot.tsx(13,3): error TS6133: 'Center' is declared but its value is never read.
+src/components/AIChatbot.tsx(16,3): error TS6133: 'InputGroup' is declared but its value is never read.
+src/components/AIChatbot.tsx(17,3): error TS6133: 'InputRightElement' is declared but its value is never read.
+src/components/AIChatbot.tsx(20,3): error TS6133: 'Avatar' is declared but its value is never read.
+src/components/AIChatbot.tsx(21,3): error TS6133: 'Textarea' is declared but its value is never read.
+src/components/AIChatbot.tsx(24,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/components/AIChatbot.tsx(30,36): error TS6133: 'Zap' is declared but its value is never read.
+src/components/AIChatbot.tsx(49,7): error TS6133: 'MotionFlex' is declared but its value is never read.
+src/components/AIProjectAssistant.tsx(15,5): error TS6133: 'InputGroup' is declared but its value is never read.
+src/components/AIProjectAssistant.tsx(16,5): error TS6133: 'InputRightElement' is declared but its value is never read.
+src/components/AlumniPortal.tsx(10,11): error TS6133: 'navigate' is declared but its value is never read.
+src/components/Layout.tsx(49,7): error TS6133: 'SidebarItem' is declared but its value is never read.
+src/components/Login.tsx(18,3): error TS6133: 'Icon' is declared but its value is never read.
+src/components/Login.tsx(20,23): error TS6133: 'Lock' is declared but its value is never read.
+src/components/Login.tsx(20,29): error TS6133: 'User' is declared but its value is never read.
+src/components/Login.tsx(21,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/components/Login.tsx(27,7): error TS6133: 'MotionHeading' is declared but its value is never read.
+src/components/Login.tsx(28,7): error TS6133: 'MotionText' is declared but its value is never read.
+src/components/Login.tsx(161,13): error TS2322: Type '{ duration: number; }' is not assignable to type 'ResponsiveValue<Transition<string & {}>> | undefined'.
+  Types of property 'duration' are incompatible.
+    Type 'number' is not assignable to type 'Transition<string & {}> | undefined'.
+src/components/ProjectCodebaseChat.tsx(8,5): error TS6133: 'Button' is declared but its value is never read.
+src/components/ProjectCodebaseChat.tsx(22,16): error TS6133: 'MessageSquare' is declared but its value is never read.
+src/components/RefactorPreview.tsx(24,16): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/Settings.tsx(22,5): error TS6133: 'Grid' is declared but its value is never read.
+src/components/Settings.tsx(29,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/components/Settings.tsx(30,48): error TS6133: 'Check' is declared but its value is never read.
+src/components/Settings.tsx(30,55): error TS6133: 'X' is declared but its value is never read.
+src/components/Settings.tsx(35,7): error TS6133: 'MotionText' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(132,10): error TS6133: 'gradingLoading' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(241,9): error TS6133: 'handleAutoGrade' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(57,3): error TS6133: 'GraduationCap' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(62,3): error TS6133: 'Cpu' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(67,3): error TS6133: 'Server' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(68,3): error TS6133: 'Database' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(69,3): error TS6133: 'HardDrive' is declared but its value is never read.
+src/components/TopAlumniProjects.tsx(25,9): error TS6133: 'Star' is declared but its value is never read.
+src/components/TopAlumniProjects.tsx(25,57): error TS6133: 'X' is declared but its value is never read.

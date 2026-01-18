@@ -1,0 +1,3 @@
+User: TESTU (Role: HOD/Admin) | Groups: 1 | Subs: 6 | Projs: 1 | Vivas: 54 | Assigns: 0
+User: teacher (Role: Teacher) | Groups: 0 | Subs: 0 | Projs: 0 | Vivas: 0 | Assigns: 0
+User: test_teacher_v (Role: Teacher) | Groups: 0 | Subs: 0 | Projs: 0 | Vivas: 0 | Assigns: 0

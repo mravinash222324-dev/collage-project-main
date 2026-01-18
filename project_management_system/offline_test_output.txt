@@ -1,0 +1,12 @@
+--- Offline Hugging Face Similarity Check ---
+✅ Gemini API has been mocked (disabled).
+
+Analyzing:
+Title: AI Traffic Control
+Abstract: An intelligent traffic management solution leveraging computer vision to monitor vehicle flow and optimize traffic light duration.
+Against: Smart Traffic Light
+
+Running analysis (using local HF model)...
+
+❌ FAILURE: No similarity detected.
+DEBUG: Model was None.

@@ -1,0 +1,17 @@
+Searching for users with 'avinash' in username...
+Username: avinash, ID: 1, Role: Student
+Username: AVINASH1, ID: 8, Role: Student
+Username: AVINASH2, ID: 27, Role: Student
+Username: AVINASH3, ID: 29, Role: Student
+
+Listing first 10 users:
+Username: avinash, ID: 1
+Username: admin, ID: 2
+Username: TESTU, ID: 6
+Username: AVINASH1, ID: 8
+Username: avi, ID: 10
+Username: uitest, ID: 11
+Username: ICAXSCS019, ID: 12
+Username: leader, ID: 15
+Username: member, ID: 16
+Username: teacher, ID: 17

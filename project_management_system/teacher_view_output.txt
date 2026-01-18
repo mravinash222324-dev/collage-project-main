@@ -1,0 +1,6 @@
+Group: group a
+Teachers for this group: ['TESTU']
+Visible Submissions for TESTU:
+ - ID: 139, Title: Jarvi: The Offline AI Assistant
+ - ID: 125, Title: AI-Powered College Project Management System
+ - ID: 124, Title: AI Voice Code Assistant for Lab Exams: Making Programming Exams Accessible

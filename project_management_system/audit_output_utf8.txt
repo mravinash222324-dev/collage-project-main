@@ -1,0 +1,48 @@
+﻿--- SYSTEM CHECK ---
+Total Users: 20
+Total Groups: 4
+Total Projects: 14
+
+--- ONGOING PROJECTS AUDIT ---
+Found 1 "In Progress" projects.
+
+Title: AI-Powered Smart Classroom
+  Group: group b
+  Teachers: ['ICAXSCS019']
+
+--- SUBMISSIONS AUDIT ---
+python : Traceback 
+(most recent call 
+last):
+At line:1 char:1
++ python 
+audit_ongoing.py > 
+audit_output.txt 2>&1
++ ~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~
+    + CategoryInfo   
+           : NotSpe  
+  cified: (Traceba   
+ ck (most recent     
+call last)::Stri    
+ng) [], RemoteEx    
+ception
+    + FullyQualified 
+   ErrorId : Native  
+  CommandError
+ 
+  File "C:\Users\nand
+a\avinash\project_man
+agement_system\audit_
+ongoing.py", line 
+33, in <module>
+    submissions = Pro
+jectSubmission.object
+s.all()
+                  
+^^^^^^^^^^^^^^^^^
+NameError: name 
+'ProjectSubmission' 
+is not defined
+

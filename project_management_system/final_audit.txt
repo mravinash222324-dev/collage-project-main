@@ -1,0 +1,139 @@
+--- SYSTEM CHECK ---
+Total Users: 20
+Total Groups: 4
+Total Projects: 14
+
+--- ALL PROJECTS AUDIT ---
+Found 14 total projects.
+
+Title: ai project manager
+  Status: Completed
+  Group: group a
+  Teachers (User, Role, ID): [('TESTU', 'HOD/Admin', 6)]
+Title: AI Driven Traffic Control
+  Status: Completed
+  Group: None
+Title: Blockchain Voting System
+  Status: Completed
+  Group: None
+Title: Smart Agriculture IoT
+  Status: Completed
+  Group: None
+Title: VR Classroom Experience
+  Status: Completed
+  Group: None
+Title: Quantum Cryptography for IoT
+  Status: Completed
+  Group: None
+Title: Sustainable Smart Cities with AI
+  Status: Completed
+  Group: None
+Title: DeFi Lending Protocol on Polygon
+  Status: Completed
+  Group: None
+Title: Autonomous Drone Reforestation
+  Status: Completed
+  Group: None
+Title: Privacy-Preserving Healthcare Analytics
+  Status: Completed
+  Group: None
+Title: Real-time AR Education Platform
+  Status: Completed
+  Group: None
+Title: Low-Code AI Platform for SME
+  Status: Completed
+  Group: None
+Title: Edge Computing for Self-Driving Cars
+  Status: Completed
+  Group: None
+Title: AI-Powered Smart Classroom
+  Status: In Progress
+  Group: group b
+  Teachers (User, Role, ID): [('ICAXSCS019', 'Teacher', 12)]
+
+--- SUBMISSIONS AUDIT ---
+Title: ai project manager
+  Status: Completed
+  Group: group a
+  Teachers: ['TESTU']
+Title: AI-Powered College Project Management System
+  Status: Rejected
+  Group: group a
+  Teachers: ['TESTU']
+Title: AI-Powered College Project Management System
+  Status: Rejected
+  Group: group a
+  Teachers: ['TESTU']
+Title: AI-Powered College Project Management System
+  Status: Rejected
+  Group: group a
+  Teachers: ['TESTU']
+Title: AI Driven Traffic Control
+  Status: Completed
+  Group: None
+Title: Blockchain Voting System
+  Status: Completed
+  Group: None
+Title: Smart Agriculture IoT
+  Status: Completed
+  Group: None
+Title: VR Classroom Experience
+  Status: Completed
+  Group: None
+Title: Quantum Cryptography for IoT
+  Status: Completed
+  Group: None
+Title: Quantum Cryptography for IoT
+  Status: Completed
+  Group: None
+Title: Quantum Cryptography for IoT
+  Status: Completed
+  Group: None
+Title: Debug Title
+  Status: Completed
+  Group: None
+Title: Debug Title
+  Status: Completed
+  Group: None
+Title: Quantum Cryptography for IoT
+  Status: Completed
+  Group: None
+Title: Sustainable Smart Cities with AI
+  Status: Completed
+  Group: None
+Title: DeFi Lending Protocol on Polygon
+  Status: Completed
+  Group: None
+Title: Autonomous Drone Reforestation
+  Status: Completed
+  Group: None
+Title: Privacy-Preserving Healthcare Analytics
+  Status: Completed
+  Group: None
+Title: Real-time AR Education Platform
+  Status: Completed
+  Group: None
+Title: Low-Code AI Platform for SME
+  Status: Completed
+  Group: None
+Title: Edge Computing for Self-Driving Cars
+  Status: Completed
+  Group: None
+Title: AI-Powered Smart Classroom
+  Status: Approved
+  Group: group b
+  Teachers: ['ICAXSCS019']
+
+--- GROUPS AND PROJECTS AUDIT ---
+Group: group a
+  Teachers: ['TESTU']
+  Projects: ['ai project manager (Completed)']
+Group: Test Group
+  Teachers: []
+  Projects: []
+Group: tess
+  Teachers: []
+  Projects: []
+Group: group b
+  Teachers: ['ICAXSCS019']
+  Projects: ['AI-Powered Smart Classroom (In Progress)']

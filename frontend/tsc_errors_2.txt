@@ -1,0 +1,170 @@
+src/components/AIVivaSimulation.tsx(4,10): error TS6133: 'useNavigate' is declared but its value is never read.
+src/components/AIVivaSimulation.tsx(14,3): error TS6133: 'useToast' is declared but its value is never read.
+src/components/AIVivaSimulation.tsx(63,9): error TS2304: Cannot find name 'setError'.
+src/components/AIVivaSimulation.tsx(64,9): error TS2304: Cannot find name 'setIsLoadingSession'.
+src/components/AIVivaSimulation.tsx(68,7): error TS2304: Cannot find name 'setIsLoadingSession'.
+src/components/AIVivaSimulation.tsx(69,7): error TS2304: Cannot find name 'setError'.
+src/components/AIVivaSimulation.tsx(73,23): error TS2304: Cannot find name 'navigate'.
+src/components/AIVivaSimulation.tsx(77,9): error TS2304: Cannot find name 'setActualProjectId'.
+src/components/AIVivaSimulation.tsx(83,9): error TS2304: Cannot find name 'setProjectProgress'.
+src/components/AIVivaSimulation.tsx(93,9): error TS2304: Cannot find name 'setCurrentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(98,9): error TS2304: Cannot find name 'setError'.
+src/components/AIVivaSimulation.tsx(99,9): error TS2304: Cannot find name 'toast'.
+src/components/AIVivaSimulation.tsx(101,9): error TS2304: Cannot find name 'setIsLoadingSession'.
+src/components/AIVivaSimulation.tsx(106,24): error TS2304: Cannot find name 'navigate'.
+src/components/AIVivaSimulation.tsx(106,34): error TS2304: Cannot find name 'toast'.
+src/components/AIVivaSimulation.tsx(111,26): error TS2304: Cannot find name 'currentAnswer'.
+src/components/AIVivaSimulation.tsx(113,54): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(115,5): error TS2304: Cannot find name 'setIsEvaluating'.
+src/components/AIVivaSimulation.tsx(120,17): error TS2304: Cannot find name 'currentAnswer'.
+src/components/AIVivaSimulation.tsx(129,26): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(135,7): error TS2304: Cannot find name 'toast'.
+src/components/AIVivaSimulation.tsx(137,7): error TS2304: Cannot find name 'setIsEvaluating'.
+src/components/AIVivaSimulation.tsx(143,24): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(144,7): error TS2304: Cannot find name 'setCurrentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(144,31): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+src/components/AIVivaSimulation.tsx(145,43): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(146,7): error TS2304: Cannot find name 'setCurrentAnswer'.
+src/components/AIVivaSimulation.tsx(151,9): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(152,7): error TS2304: Cannot find name 'setCurrentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(152,31): error TS7006: Parameter 'prev' implicitly has an 'any' type.
+src/components/AIVivaSimulation.tsx(154,9): error TS2304: Cannot find name 'setCurrentAnswer'.
+src/components/AIVivaSimulation.tsx(154,48): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(160,43): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(161,40): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(186,38): error TS2304: Cannot find name 'navigate'.
+src/components/AIVivaSimulation.tsx(193,14): error TS2304: Cannot find name 'actualProjectId'.
+src/components/AIVivaSimulation.tsx(193,90): error TS2304: Cannot find name 'actualProjectId'.
+src/components/AIVivaSimulation.tsx(197,12): error TS2304: Cannot find name 'isLoadingSession'.
+src/components/AIVivaSimulation.tsx(210,12): error TS2304: Cannot find name 'error'.
+src/components/AIVivaSimulation.tsx(210,22): error TS2304: Cannot find name 'isLoadingSession'.
+src/components/AIVivaSimulation.tsx(212,59): error TS2304: Cannot find name 'error'.
+src/components/AIVivaSimulation.tsx(213,75): error TS2304: Cannot find name 'navigate'.
+src/components/AIVivaSimulation.tsx(218,13): error TS2304: Cannot find name 'isLoadingSession'.
+src/components/AIVivaSimulation.tsx(218,34): error TS2304: Cannot find name 'error'.
+src/components/AIVivaSimulation.tsx(223,29): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(225,36): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(247,30): error TS2304: Cannot find name 'currentAnswer'.
+src/components/AIVivaSimulation.tsx(248,40): error TS2304: Cannot find name 'setCurrentAnswer'.
+src/components/AIVivaSimulation.tsx(257,35): error TS2304: Cannot find name 'isEvaluating'.
+src/components/AIVivaSimulation.tsx(260,72): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(260,102): error TS2304: Cannot find name 'isEvaluating'.
+src/components/AIVivaSimulation.tsx(267,36): error TS2304: Cannot find name 'isEvaluating'.
+src/components/AIVivaSimulation.tsx(269,38): error TS2304: Cannot find name 'currentAnswer'.
+src/components/AIVivaSimulation.tsx(304,72): error TS2304: Cannot find name 'currentQuestionIndex'.
+src/components/AIVivaSimulation.tsx(308,68): error TS2304: Cannot find name 'navigate'.
+src/components/AnalyticsDashboard.tsx(17,3): error TS6133: 'ListIcon' is declared but its value is never read.
+src/components/CheckpointList.tsx(12,5): error TS6133: 'useDisclosure' is declared but its value is never read.
+src/components/CheckpointList.tsx(15,5): error TS6133: 'Spinner' is declared but its value is never read.
+src/components/Layout.tsx(12,5): error TS2304: Cannot find name 'Lucide'.
+src/components/Layout.tsx(14,19): error TS2552: Cannot find name 'motion'. Did you mean 'Option'?
+src/components/Layout.tsx(14,26): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(17,15): error TS2304: Cannot find name 'ReactNode'.
+src/components/Layout.tsx(21,43): error TS6133: 'path' is declared but its value is never read.
+src/components/Layout.tsx(23,10): error TS2304: Cannot find name 'Tooltip'.
+src/components/Layout.tsx(24,14): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(39,21): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/components/Layout.tsx(39,22): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/components/Layout.tsx(44,22): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(46,15): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(47,11): error TS2304: Cannot find name 'Tooltip'.
+src/components/Layout.tsx(52,13): error TS6133: 'isOpen' is declared but its value is never read.
+src/components/Layout.tsx(52,29): error TS6133: 'onClose' is declared but its value is never read.
+src/components/Layout.tsx(52,41): error TS2304: Cannot find name 'useDisclosure'.
+src/components/Layout.tsx(53,22): error TS2552: Cannot find name 'useNavigate'. Did you mean 'navigate'?
+src/components/Layout.tsx(54,22): error TS2552: Cannot find name 'useLocation'. Did you mean 'location'?
+src/components/Layout.tsx(55,39): error TS2686: 'React' refers to a UMD global, but the current file is a module. Consider adding an import instead.
+src/components/Layout.tsx(70,10): error TS2304: Cannot find name 'Flex'.
+src/components/Layout.tsx(72,14): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(91,18): error TS2304: Cannot find name 'Flex'.
+src/components/Layout.tsx(93,26): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(94,30): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(96,31): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(97,30): error TS2304: Cannot find name 'VStack'.
+src/components/Layout.tsx(98,33): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/components/Layout.tsx(98,34): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/components/Layout.tsx(99,40): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/components/Layout.tsx(99,41): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/components/Layout.tsx(101,33): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/components/Layout.tsx(101,34): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/components/Layout.tsx(102,31): error TS2304: Cannot find name 'VStack'.
+src/components/Layout.tsx(103,27): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(106,26): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(108,27): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(110,22): error TS2304: Cannot find name 'IconButton'.
+src/components/Layout.tsx(118,19): error TS2304: Cannot find name 'Flex'.
+src/components/Layout.tsx(121,18): error TS2304: Cannot find name 'VStack'.
+src/components/Layout.tsx(133,19): error TS2304: Cannot find name 'VStack'.
+src/components/Layout.tsx(136,18): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(137,22): error TS2304: Cannot find name 'Menu'.
+src/components/Layout.tsx(138,26): error TS2304: Cannot find name 'MenuButton'.
+src/components/Layout.tsx(139,30): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(140,34): error TS2304: Cannot find name 'Avatar'.
+src/components/Layout.tsx(142,38): error TS2304: Cannot find name 'VStack'.
+src/components/Layout.tsx(143,41): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/components/Layout.tsx(143,42): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/components/Layout.tsx(144,41): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/components/Layout.tsx(144,42): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/components/Layout.tsx(145,39): error TS2304: Cannot find name 'VStack'.
+src/components/Layout.tsx(147,31): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(148,27): error TS2304: Cannot find name 'MenuButton'.
+src/components/Layout.tsx(149,26): error TS2304: Cannot find name 'MenuList'.
+src/components/Layout.tsx(150,30): error TS2304: Cannot find name 'MenuItem'.
+src/components/Layout.tsx(150,74): error TS2304: Cannot find name 'MenuItem'.
+src/components/Layout.tsx(151,30): error TS2304: Cannot find name 'MenuItem'.
+src/components/Layout.tsx(151,79): error TS2304: Cannot find name 'MenuItem'.
+src/components/Layout.tsx(152,30): error TS2304: Cannot find name 'MenuDivider'.
+src/components/Layout.tsx(153,30): error TS2304: Cannot find name 'MenuItem'.
+src/components/Layout.tsx(155,31): error TS2304: Cannot find name 'MenuItem'.
+src/components/Layout.tsx(156,27): error TS2304: Cannot find name 'MenuList'.
+src/components/Layout.tsx(157,23): error TS2304: Cannot find name 'Menu'.
+src/components/Layout.tsx(158,19): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(162,14): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(164,18): error TS2304: Cannot find name 'Flex'.
+src/components/Layout.tsx(174,22): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(175,26): error TS2304: Cannot find name 'IconButton'.
+src/components/Layout.tsx(176,23): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(179,22): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(188,25): error TS2607: JSX element class does not support attributes because it does not have a 'props' property.
+src/components/Layout.tsx(188,26): error TS2786: 'Text' cannot be used as a JSX component.
+  Its type '{ new (data?: string | undefined): Text; prototype: Text; }' is not a valid JSX element type.
+    Type '{ new (data?: string | undefined): Text; prototype: Text; }' is not assignable to type 'new (props: any, deprecatedLegacyContext?: any) => Component<any, any, any>'.
+      Type 'Text' is missing the following properties from type 'Component<any, any, any>': context, setState, forceUpdate, render, and 3 more.
+src/components/Layout.tsx(189,23): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(191,22): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(192,26): error TS2304: Cannot find name 'IconButton'.
+src/components/Layout.tsx(199,23): error TS2304: Cannot find name 'HStack'.
+src/components/Layout.tsx(200,19): error TS2304: Cannot find name 'Flex'.
+src/components/Layout.tsx(203,18): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(204,22): error TS2304: Cannot find name 'AnimatePresence'.
+src/components/Layout.tsx(205,26): error TS2304: Cannot find name 'motion'.
+src/components/Layout.tsx(213,27): error TS2304: Cannot find name 'motion'.
+src/components/Layout.tsx(214,23): error TS2304: Cannot find name 'AnimatePresence'.
+src/components/Layout.tsx(215,19): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(216,15): error TS2304: Cannot find name 'Box'.
+src/components/Layout.tsx(217,11): error TS2304: Cannot find name 'Flex'.
+src/components/Layout/MainLayout.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/StudentDashboard.tsx(29,5): error TS6133: 'Zap' is declared but its value is never read.
+src/components/StudentDashboard.tsx(31,5): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/StudentDashboard.tsx(32,5): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(132,9): error TS2304: Cannot find name 'setSelectedAssignmentId'.
+src/components/TeacherDashboard.tsx(18,3): error TS6133: 'Container' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(29,3): error TS6133: 'Tag' is declared but its value is never read.

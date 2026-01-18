@@ -1,0 +1,13 @@
+ai project manager:In Progress
+AI Driven Traffic Control:Completed
+Blockchain Voting System:Completed
+Smart Agriculture IoT:Completed
+VR Classroom Experience:Completed
+Quantum Cryptography for IoT:Completed
+Sustainable Smart Cities with AI:Completed
+DeFi Lending Protocol on Polygon:Completed
+Autonomous Drone Reforestation:Completed
+Privacy-Preserving Healthcare Analytics:Completed
+Real-time AR Education Platform:Completed
+Low-Code AI Platform for SME:Completed
+Edge Computing for Self-Driving Cars:Completed

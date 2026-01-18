@@ -1,0 +1,19 @@
+﻿
+> frontend@0.0.0 build
+> tsc -b && vite build
+
+src/components/AIProjectAssistant.tsx(23,31): error TS6133: 'Sparkles' is declared but its value is never read.
+src/components/ForgotPassword.tsx(17,3): error TS6133: 'Alert' is declared but its value is never read.
+src/components/ForgotPassword.tsx(18,3): error TS6133: 'AlertIcon' is declared but its value is never read.
+src/components/Help.tsx(13,5): error TS6133: 'HStack' is declared but its value is never read.
+src/components/Help.tsx(21,22): error TS6133: 'Book' is declared but its value is never read.
+src/components/Help.tsx(21,28): error TS6133: 'MessageCircle' is declared but its value is never read.
+src/components/NotFound.tsx(2,38): error TS6133: 'VStack' is declared but its value is never read.
+src/components/TeacherProfile.tsx(16,5): error TS6133: 'Divider' is declared but its value is never read.
+src/components/TeacherProfile.tsx(30,5): error TS6133: 'BookOpen' is declared but its value is never read.
+src/components/TeacherProfile.tsx(31,5): error TS6133: 'Users' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(21,5): error TS6133: 'CircularProgress' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(22,5): error TS6133: 'CircularProgressLabel' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(28,49): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(28,62): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(28,75): error TS6133: 'HelpCircle' is declared but its value is never read.

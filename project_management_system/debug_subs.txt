@@ -1,0 +1,16 @@
+Group: group a | Submissions: 15
+  - Sub: 65 | Title: Smart Waste Management System | Status: Submitted
+  - Sub: 71 | Title: chatbot for carrer | Status: Rejected
+  - Sub: 72 | Title: Chat-Based Career Counselor | Status: Submitted
+  - Sub: 83 | Title: ai project manager | Status: Completed
+  - Sub: 84 | Title: fdjfmn ,mnf rm,n ref | Status: Rejected
+  - Sub: 89 | Title: flood rescuer | Status: Rejected
+  - Sub: 91 | Title: mental health ai | Status: Submitted
+  - Sub: 94 | Title: AI-Powered College Project Management System | Status: Rejected
+  - Sub: 95 | Title: AI-Powered College Project Management System | Status: Rejected
+  - Sub: 96 | Title: AI-Powered College Project Management System | Status: Rejected
+  - Sub: 101 | Title: AI Voice Code Assistant for Lab Exams | Status: Rejected
+  - Sub: 102 | Title: ai for desable students | Status: Rejected
+  - Sub: 103 | Title: AI Voice Code Assistant for Lab Exams | Status: Submitted
+  - Sub: 104 | Title: AI-Powered Classroom Lecture Note Generator | Status: Submitted
+  - Sub: 105 | Title: project manager | Status: Submitted

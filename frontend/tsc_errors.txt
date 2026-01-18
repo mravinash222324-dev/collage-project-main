@@ -1,0 +1,10 @@
+src/components/AIVivaSimulation.tsx(64,10): error TS6133: 'projectProgress' is declared but its value is never read.
+src/components/AnalyticsDashboard.tsx(17,3): error TS6133: 'ListIcon' is declared but its value is never read.
+src/components/CheckpointList.tsx(12,5): error TS6133: 'useDisclosure' is declared but its value is never read.
+src/components/CheckpointList.tsx(15,5): error TS6133: 'Spinner' is declared but its value is never read.
+src/components/Layout.tsx(1,17): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Layout.tsx(42,43): error TS6133: 'path' is declared but its value is never read.
+src/components/Layout.tsx(73,13): error TS6133: 'isOpen' is declared but its value is never read.
+src/components/Layout.tsx(73,29): error TS6133: 'onClose' is declared but its value is never read.
+src/components/Layout/MainLayout.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/Layout/MainLayout.tsx(1,17): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.

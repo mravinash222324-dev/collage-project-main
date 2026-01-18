@@ -1,0 +1,83 @@
+Starting check...
+User: avinash (ID: 1)
+Groups: ['group a']
+Total Submissions: 19
+- Project: 'Debug Title' (Status: Completed, ID: 111)
+  - No associated Project model found.
+- Project: 'Debug Title' (Status: Completed, ID: 110)
+  - No associated Project model found.
+- Project: 'Debug Project' (Status: Completed, ID: 108)
+  - No associated Project model found.
+- Project: 'project manager' (Status: Submitted, ID: 105)
+  - No associated Project model found.
+- Project: 'AI-Powered Classroom Lecture Note Generator' (Status: Submitted, ID: 104)
+  - No associated Project model found.
+- Project: 'AI Voice Code Assistant for Lab Exams' (Status: Submitted, ID: 103)
+  - No associated Project model found.
+- Project: 'ai for desable students' (Status: Rejected, ID: 102)
+  - No associated Project model found.
+- Project: 'AI Voice Code Assistant for Lab Exams' (Status: Rejected, ID: 101)
+  - No associated Project model found.
+- Project: 'AI-Powered College Project Management System' (Status: Rejected, ID: 96)
+  - No associated Project model found.
+- Project: 'AI-Powered College Project Management System' (Status: Rejected, ID: 95)
+  - No associated Project model found.
+- Project: 'AI-Powered College Project Management System' (Status: Rejected, ID: 94)
+  - No associated Project model found.
+- Project: 'mental health ai' (Status: Submitted, ID: 91)
+  - No associated Project model found.
+- Project: 'flood rescuer' (Status: Rejected, ID: 89)
+  - No associated Project model found.
+- Project: 'fdjfmn ,mnf rm,n ref' (Status: Rejected, ID: 84)
+  - No associated Project model found.
+- Project: 'ai project manager' (Status: Completed, ID: 83)
+  - Project Model ID: 17, Status: Completed
+  - Team: ['AVINASH1', 'avi', 'ICAXSCS019']
+- Project: 'PROJECT MANAGERR' (Status: Completed, ID: 77)
+  - Project Model ID: 12, Status: Completed
+  - Team: ['AVINASH1', 'avi', 'ICAXSCS019']
+- Project: 'Chat-Based Career Counselor' (Status: Submitted, ID: 72)
+  - No associated Project model found.
+- Project: 'chatbot for carrer' (Status: Rejected, ID: 71)
+  - No associated Project model found.
+- Project: 'Smart Waste Management System' (Status: Submitted, ID: 65)
+  - Project Model ID: 8, Status: In Progress
+  - Team: ['AVINASH1', 'avi', 'ICAXSCS019']
+User: AVINASH1 (ID: 8)
+Groups: ['group a']
+Total Submissions: 16
+- Project: 'project manager' (Status: Submitted, ID: 105)
+  - No associated Project model found.
+- Project: 'AI-Powered Classroom Lecture Note Generator' (Status: Submitted, ID: 104)
+  - No associated Project model found.
+- Project: 'AI Voice Code Assistant for Lab Exams' (Status: Submitted, ID: 103)
+  - No associated Project model found.
+- Project: 'ai for desable students' (Status: Rejected, ID: 102)
+  - No associated Project model found.
+- Project: 'AI Voice Code Assistant for Lab Exams' (Status: Rejected, ID: 101)
+  - No associated Project model found.
+- Project: 'AI-Powered College Project Management System' (Status: Rejected, ID: 96)
+  - No associated Project model found.
+- Project: 'AI-Powered College Project Management System' (Status: Rejected, ID: 95)
+  - No associated Project model found.
+- Project: 'AI-Powered College Project Management System' (Status: Rejected, ID: 94)
+  - No associated Project model found.
+- Project: 'mental health ai' (Status: Submitted, ID: 91)
+  - No associated Project model found.
+- Project: 'flood rescuer' (Status: Rejected, ID: 89)
+  - No associated Project model found.
+- Project: 'fdjfmn ,mnf rm,n ref' (Status: Rejected, ID: 84)
+  - No associated Project model found.
+- Project: 'ai project manager' (Status: Completed, ID: 83)
+  - Project Model ID: 17, Status: Completed
+  - Team: ['AVINASH1', 'avi', 'ICAXSCS019']
+- Project: 'PROJECT MANAGERR' (Status: Completed, ID: 77)
+  - Project Model ID: 12, Status: Completed
+  - Team: ['AVINASH1', 'avi', 'ICAXSCS019']
+- Project: 'Chat-Based Career Counselor' (Status: Submitted, ID: 72)
+  - No associated Project model found.
+- Project: 'chatbot for carrer' (Status: Rejected, ID: 71)
+  - No associated Project model found.
+- Project: 'Smart Waste Management System' (Status: Submitted, ID: 65)
+  - Project Model ID: 8, Status: In Progress
+  - Team: ['AVINASH1', 'avi', 'ICAXSCS019']

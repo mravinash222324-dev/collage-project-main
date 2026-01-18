@@ -1,0 +1,29 @@
+--- Recent Submissions ---
+ID: 120 | Title: AI-Powered Smart Classroom | Student: AVINASH2 | Group: group b | Status: Submitted | Teachers: ['ICAXSCS019']
+ID: 111 | Title: Debug Title | Student: avinash | Group: None | Status: Completed | Teachers: []
+ID: 110 | Title: Debug Title | Student: avinash | Group: None | Status: Completed | Teachers: []
+ID: 114 | Title: DeFi Lending Protocol on Polygon | Student: alumni_hero | Group: None | Status: Completed | Teachers: []
+ID: 112 | Title: Quantum Cryptography for IoT | Student: alumni_hero | Group: None | Status: Completed | Teachers: []
+ID: 109 | Title: Quantum Cryptography for IoT | Student: alumni_hero | Group: None | Status: Completed | Teachers: []
+ID: 107 | Title: Quantum Cryptography for IoT | Student: alumni_hero | Group: None | Status: Completed | Teachers: []
+ID: 106 | Title: Quantum Cryptography for IoT | Student: alumni_hero | Group: None | Status: Completed | Teachers: []
+ID: 100 | Title: VR Classroom Experience | Student: alumni_student_4 | Group: None | Status: Completed | Teachers: []
+ID: 99 | Title: Smart Agriculture IoT | Student: alumni_student_3 | Group: None | Status: Completed | Teachers: []
+
+--- Recent Projects ---
+ID: 31 | Title: Edge Computing for Self-Driving Cars | Sub_ID: 119 | Status: Completed | Teachers: []
+ID: 30 | Title: Low-Code AI Platform for SME | Sub_ID: 118 | Status: Completed | Teachers: []
+ID: 29 | Title: Real-time AR Education Platform | Sub_ID: 117 | Status: Completed | Teachers: []
+ID: 28 | Title: Privacy-Preserving Healthcare Analytics | Sub_ID: 116 | Status: Completed | Teachers: []
+ID: 27 | Title: Autonomous Drone Reforestation | Sub_ID: 115 | Status: Completed | Teachers: []
+ID: 26 | Title: DeFi Lending Protocol on Polygon | Sub_ID: 114 | Status: Completed | Teachers: []
+ID: 25 | Title: Sustainable Smart Cities with AI | Sub_ID: 113 | Status: Completed | Teachers: []
+ID: 24 | Title: Quantum Cryptography for IoT | Sub_ID: 112 | Status: Completed | Teachers: []
+ID: 23 | Title: VR Classroom Experience | Sub_ID: 100 | Status: Completed | Teachers: []
+ID: 22 | Title: Smart Agriculture IoT | Sub_ID: 99 | Status: Completed | Teachers: []
+
+--- Recent Groups ---
+ID: 5 | Name: group b | Teachers: ['ICAXSCS019'] | Students: ['AVINASH2']
+ID: 4 | Name: tess | Teachers: [] | Students: []
+ID: 3 | Name: Test Group | Teachers: [] | Students: []
+ID: 1 | Name: group a | Teachers: ['TESTU'] | Students: ['avinash', 'AVINASH1', 'avi']

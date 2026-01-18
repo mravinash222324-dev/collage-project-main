@@ -1,0 +1,46 @@
+﻿--- DEEP GROUP AUDIT ---
+Group: group a (ID: 1)
+  Teachers: [('TESTU', 'HOD/Admin', 6)]
+  Ongoing Projects: []
+  Has Teachers (exists()): True
+  Is Unassigned (according to filter): False
+--------------------
+Group: Test Group (ID: 3)
+  Teachers: []
+  Ongoing Projects: []
+  Has Teachers (exists()): False
+  Is Unassigned (according to filter): False
+--------------------
+Group: tess (ID: 4)
+  Teachers: []
+  Ongoing Projects: []
+  Has Teachers (exists()): False
+  Is Unassigned (according to filter): False
+--------------------
+Group: group b (ID: 5)
+  Teachers: [('ICAXSCS019', 'Teacher', 12)]
+  Ongoing Projects: ['AI-Powered Smart Classroom']
+  Has Teachers (exists()): True
+  Is Unassigned (according to filter): False
+--------------------
+Group: Unassigned Group X (ID: 6)
+  Teachers: []
+  Ongoing Projects: ['Solar Powered IoT Weather Station']
+  Has Teachers (exists()): False
+  Is Unassigned (according to filter): True
+--------------------
+
+--- ALL TEACHERS ---
+Teacher: admin (ID: 2, Role: HOD/Admin)
+  Teaching Groups: []
+Teacher: TESTU (ID: 6, Role: HOD/Admin)
+  Teaching Groups: ['group a']
+Teacher: ICAXSCS019 (ID: 12, Role: Teacher)
+  Teaching Groups: ['group b']
+Teacher: teacher (ID: 17, Role: Teacher)
+  Teaching Groups: []
+Teacher: test_teacher_v (ID: 20, Role: Teacher)
+  Teaching Groups: []
+Teacher: test_admin_v (ID: 21, Role: HOD/Admin)
+  Teaching Groups: []
+

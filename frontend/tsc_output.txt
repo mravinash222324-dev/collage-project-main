@@ -1,0 +1,32 @@
+src/components/AIProjectAssistant.tsx(13,3): error TS6133: 'Center' is declared but its value is never read.
+src/components/AIVivaSimulation.tsx(64,10): error TS6133: 'projectProgress' is declared but its value is never read.
+src/components/AnalyticsDashboard.tsx(17,3): error TS6133: 'ListIcon' is declared but its value is never read.
+src/components/CheckpointList.tsx(12,5): error TS6133: 'useDisclosure' is declared but its value is never read.
+src/components/CheckpointList.tsx(15,5): error TS6133: 'Spinner' is declared but its value is never read.
+src/components/CheckpointList.tsx(19,33): error TS6133: 'CircleIcon' is declared but its value is never read.
+src/components/ProjectKanban.tsx(20,21): error TS6133: 'Plus' is declared but its value is never read.
+src/components/ProjectKanban.tsx(20,51): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/StudentDashboard.tsx(17,3): error TS6133: 'FormControl' is declared but its value is never read.
+src/components/StudentDashboard.tsx(18,3): error TS6133: 'FormLabel' is declared but its value is never read.
+src/components/StudentDashboard.tsx(33,3): error TS6133: 'Avatar' is declared but its value is never read.
+src/components/StudentDashboard.tsx(34,3): error TS6133: 'Divider' is declared but its value is never read.
+src/components/StudentDashboard.tsx(37,10): error TS6133: 'ArrowRight' is declared but its value is never read.
+src/components/StudentDashboard.tsx(37,34): error TS6133: 'MessageSquare' is declared but its value is never read.
+src/components/StudentDashboard.tsx(37,100): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/StudentDashboard.tsx(108,7): error TS6133: 'MotionText' is declared but its value is never read.
+src/components/StudentDashboard.tsx(110,7): error TS6133: 'pulse' is declared but its value is never read.
+src/components/StudentDashboard.tsx(115,18): error TS7009: 'new' expression, whose target lacks a construct signature, implicitly has an 'any' type.
+src/components/StudentDashboard.tsx(115,26): error TS2558: Expected 0 type arguments, but got 2.
+src/components/StudentDashboard.tsx(140,10): error TS6133: 'activeChannel' is declared but its value is never read.
+src/components/StudentDashboard.tsx(141,10): error TS6133: 'messages' is declared but its value is never read.
+src/components/StudentDashboard.tsx(142,10): error TS6133: 'newMessage' is declared but its value is never read.
+src/components/StudentDashboard.tsx(143,10): error TS6133: 'loadingMessages' is declared but its value is never read.
+src/components/StudentDashboard.tsx(144,10): error TS6133: 'sendingMessage' is declared but its value is never read.
+src/components/StudentDashboard.tsx(144,26): error TS6133: 'setSendingMessage' is declared but its value is never read.
+src/components/StudentDashboard.tsx(145,10): error TS6133: 'messageError' is declared but its value is never read.
+src/components/StudentDashboard.tsx(332,9): error TS6133: 'handleFileUpload' is declared but its value is never read.
+src/components/StudentDashboard.tsx(417,9): error TS6133: 'fetchMessages' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(27,3): error TS6133: 'Input' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(27,3): error TS6133: 'Textarea' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(29,3): error TS6133: 'Divider' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(23,21): error TS6133: 'User' is declared but its value is never read.

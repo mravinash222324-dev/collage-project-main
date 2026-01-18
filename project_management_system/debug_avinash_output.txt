@@ -1,0 +1,16 @@
+User: AVINASH1 (ID: 8)
+Groups: ['group a']
+
+--- Checking Group: group a (ID: 1) ---
+Projects for group 'group a':
+  - ID: 17, Title: ai project manager, Status: In Progress
+Submissions for group 'group a':
+  - ID: 83, Title: ai project manager, Status: Completed
+  - ID: 94, Title: AI-Powered College Project Management System, Status: Rejected
+  - ID: 95, Title: AI-Powered College Project Management System, Status: Rejected
+  - ID: 96, Title: AI-Powered College Project Management System, Status: Rejected
+  - ID: 124, Title: AI Voice Code Assistant for Lab Exams: Making Programming Exams Accessible, Status: Submitted
+  - ID: 125, Title: AI-Powered College Project Management System, Status: Submitted
+  - ID: 139, Title: Jarvi: The Offline AI Assistant, Status: Submitted
+Group IDs with active projects: [1]
+Is Group 1 blocked? True

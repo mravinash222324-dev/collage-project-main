@@ -1,0 +1,34 @@
+
+> frontend@0.0.0 build
+> tsc -b && vite build
+
+src/components/AIVivaSimulation.tsx(64,10): error TS6133: 'projectProgress' is declared but its value is never read.
+src/components/AnalyticsDashboard.tsx(17,3): error TS6133: 'ListIcon' is declared but its value is never read.
+src/components/CheckpointList.tsx(12,5): error TS6133: 'useDisclosure' is declared but its value is never read.
+src/components/CheckpointList.tsx(15,5): error TS6133: 'Spinner' is declared but its value is never read.
+src/components/CheckpointList.tsx(19,33): error TS6133: 'CircleIcon' is declared but its value is never read.
+src/components/Layout.tsx(2,17): error TS1484: 'ReactNode' is a type and must be imported using a type-only import when 'verbatimModuleSyntax' is enabled.
+src/components/Layout.tsx(43,43): error TS6133: 'path' is declared but its value is never read.
+src/components/Layout.tsx(74,13): error TS6133: 'isOpen' is declared but its value is never read.
+src/components/Layout.tsx(74,29): error TS6133: 'onClose' is declared but its value is never read.
+src/components/Layout/MainLayout.tsx(1,8): error TS6133: 'React' is declared but its value is never read.
+src/components/ProjectKanban.tsx(23,20): error TS6133: 'Plus' is declared but its value is never read.
+src/components/ProjectKanban.tsx(23,50): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/StudentDashboard.tsx(29,5): error TS6133: 'Zap' is declared but its value is never read.
+src/components/StudentDashboard.tsx(31,5): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/StudentDashboard.tsx(32,5): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(62,12): error TS6133: 'selectedAssignmentId' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(18,3): error TS6133: 'Container' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(29,3): error TS6133: 'Tag' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(45,9): error TS6133: 'Users' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(45,16): error TS6133: 'BookOpen' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(45,36): error TS6133: 'Calendar' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(45,46): error TS6133: 'LogOut' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(45,54): error TS6133: 'Bell' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(45,60): error TS6133: 'Search' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(45,68): error TS6133: 'Menu' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(45,89): error TS6133: 'AlertTriangle' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(359,26): error TS2552: Cannot find name 'Progress'. Did you mean 'onprogress'?
+src/components/TeacherDashboard.tsx(364,26): error TS2552: Cannot find name 'Progress'. Did you mean 'onprogress'?
+src/components/TeacherDashboard.tsx(369,26): error TS2552: Cannot find name 'Progress'. Did you mean 'onprogress'?
+src/components/TeacherVivaHistory.tsx(24,20): error TS6133: 'User' is declared but its value is never read.

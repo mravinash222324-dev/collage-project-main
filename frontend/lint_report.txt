@@ -1,0 +1,122 @@
+﻿
+C:\Users\nanda\avinash\frontend\src\components\AIProjectAssistant.tsx
+  132:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\AIVivaSimulation.tsx
+   98:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  125:76  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\AlumniPortal.tsx
+   37:6   warning  React Hook useEffect has a missing dependency: 'fetchProjects'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  107:37  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\AnalyticsDashboard.tsx
+  74:16  error  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\nanda\avinash\frontend\src\components\ChatInterface.tsx
+   93:22  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+  108:14  error    'err' is defined but never used                                                                                   @typescript-eslint/no-unused-vars
+  118:6   warning  React Hook useEffect has a missing dependency: 'fetchMessages'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\nanda\avinash\frontend\src\components\CheckpointList.tsx
+  79:18  error  'error' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\nanda\avinash\frontend\src\components\Checkpoints.tsx
+  12:18  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+  41:22  error    'e' is defined but never used                                                                                        @typescript-eslint/no-unused-vars
+  51:8   warning  React Hook useEffect has a missing dependency: 'fetchProjectData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\nanda\avinash\frontend\src\components\CodeReview.tsx
+   68:8   warning  React Hook useEffect has a missing dependency: 'fetchReviews'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   88:50  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+   99:23  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+  145:23  error    Unexpected any. Specify a different type                                                                         @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\CodeReviewWrapper.tsx
+  43:26  error  'e' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\nanda\avinash\frontend\src\components\ForgotPassword.tsx
+   62:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  112:21  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\Layout.tsx
+  41:73  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\Layout\MainLayout.tsx
+   14:9   error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+   66:47  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  122:57  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  152:41  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\Login.tsx
+  78:14  error  'err' is defined but never used  @typescript-eslint/no-unused-vars
+
+C:\Users\nanda\avinash\frontend\src\components\ProjectArchiving.tsx
+   36:6   warning  React Hook useEffect has a missing dependency: 'fetchProjects'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  132:37  error    Unexpected any. Specify a different type                                                                          @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\ProjectChat.tsx
+  21:52  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  22:52  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  56:65  error    Unexpected any. Specify a different type                                                                        @typescript-eslint/no-explicit-any
+  76:8   warning  React Hook useEffect has a missing dependency: 'currentUser'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\nanda\avinash\frontend\src\components\ProjectKanban.tsx
+   36:22  error    Unexpected any. Specify a different type                                                                       @typescript-eslint/no-explicit-any
+   42:18  error    Unexpected any. Specify a different type                                                                       @typescript-eslint/no-explicit-any
+   60:6   warning  React Hook useEffect has a missing dependency: 'fetchTasks'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   70:14  error    'err' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+   89:14  error    'err' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+  122:14  error    'err' is defined but never used                                                                                @typescript-eslint/no-unused-vars
+  161:30  error    Unexpected any. Specify a different type                                                                       @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\ProjectSubmission.tsx
+  137:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  191:23  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\Register.tsx
+  63:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\StudentAssignmentView.tsx
+  59:8  warning  React Hook useEffect has a missing dependency: 'fetchAssignmentDetails'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\nanda\avinash\frontend\src\components\StudentDashboard.tsx
+  100:8  warning  React Hook useEffect has a missing dependency: 'fetchDashboardData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\nanda\avinash\frontend\src\components\StudentMyProjects.tsx
+  47:8  warning  React Hook useEffect has a missing dependency: 'fetchProjects'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\nanda\avinash\frontend\src\components\StudentProfile.tsx
+  55:8   warning  React Hook useEffect has a missing dependency: 'fetchProfileData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  75:57  error    Unexpected any. Specify a different type                                                                             @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\StudentProjectDetails.tsx
+   84:8   warning  React Hook useEffect has a missing dependency: 'fetchProjectDetails'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+   96:61  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+  464:51  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+  483:60  error    Unexpected any. Specify a different type                                                                                @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\TeacherApprovedProjects.tsx
+  235:19  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+  292:62  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\TeacherAssignmentManager.tsx
+  107:8   warning  React Hook useEffect has a missing dependency: 'fetchData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+  418:88  error    Unexpected any. Specify a different type                                                                      @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\TeacherDashboard.tsx
+  178:6   warning  React Hook useEffect has a missing dependency: 'fetchUnappointedSubmissions'. Either include it or remove the dependency array                           react-hooks/exhaustive-deps
+  220:6   warning  React Hook useEffect has missing dependencies: 'fetchSubmissions' and 'fetchUnappointedSubmissions'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+  350:57  error    Unexpected any. Specify a different type                                                                                                                 @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\components\TeacherProfile.tsx
+  57:8  warning  React Hook useEffect has a missing dependency: 'fetchProfileData'. Either include it or remove the dependency array  react-hooks/exhaustive-deps
+
+C:\Users\nanda\avinash\frontend\src\components\TeacherProgressLog.tsx
+  171:57  error  Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+C:\Users\nanda\avinash\frontend\src\context\NotificationContext.tsx
+  25:14  error  Fast refresh only works when a file only exports components. Use a new file to share constants or functions between components  react-refresh/only-export-components
+
+Γ£û 61 problems (45 errors, 16 warnings)
+

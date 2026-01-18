@@ -1,0 +1,39 @@
+﻿
+> frontend@0.0.0 build
+> tsc -b && vite build
+
+src/components/AdminDashboard.tsx(22,3): error TS6133: 'VStack' is declared but its value is never read.
+src/components/AdminDashboard.tsx(41,3): error TS6133: 'Edit' is declared but its value is never read.
+src/components/AdminDashboard.tsx(43,3): error TS6133: 'UserPlus' is declared but its value is never read.
+src/components/AdminDashboard.tsx(44,3): error TS6133: 'UserMinus' is declared but its value is never read.
+src/components/AIProjectAssistant.tsx(23,31): error TS6133: 'Sparkles' is declared but its value is never read.
+src/components/ForgotPassword.tsx(17,3): error TS6133: 'Alert' is declared but its value is never read.
+src/components/ForgotPassword.tsx(18,3): error TS6133: 'AlertIcon' is declared but its value is never read.
+src/components/Help.tsx(13,5): error TS6133: 'HStack' is declared but its value is never read.
+src/components/Help.tsx(21,22): error TS6133: 'Book' is declared but its value is never read.
+src/components/Help.tsx(21,28): error TS6133: 'MessageCircle' is declared but its value is never read.
+src/components/NotFound.tsx(2,38): error TS6133: 'VStack' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(46,3): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(47,3): error TS6133: 'XCircle' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(50,3): error TS6133: 'KanbanSquare' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(51,3): error TS6133: 'Code2' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(52,3): error TS6133: 'Zap' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(53,3): error TS6133: 'Trophy' is declared but its value is never read.
+src/components/TeacherApprovedProjects.tsx(54,3): error TS6133: 'Target' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(31,5): error TS6133: 'Tooltip' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(33,18): error TS6133: 'AnimatePresence' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(44,5): error TS6133: 'Calendar' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(45,5): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(46,5): error TS6133: 'XCircle' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(48,5): error TS6133: 'Search' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(49,5): error TS6133: 'Filter' is declared but its value is never read.
+src/components/TeacherAssignmentManager.tsx(54,7): error TS6133: 'MotionFlex' is declared but its value is never read.
+src/components/TeacherDashboard.tsx(462,108): error TS2304: Cannot find name 'Bell'.
+src/components/TeacherProfile.tsx(16,5): error TS6133: 'Divider' is declared but its value is never read.
+src/components/TeacherProfile.tsx(30,5): error TS6133: 'BookOpen' is declared but its value is never read.
+src/components/TeacherProfile.tsx(31,5): error TS6133: 'Users' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(21,5): error TS6133: 'CircularProgress' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(22,5): error TS6133: 'CircularProgressLabel' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(28,49): error TS6133: 'CheckCircle' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(28,62): error TS6133: 'AlertCircle' is declared but its value is never read.
+src/components/TeacherVivaHistory.tsx(28,75): error TS6133: 'HelpCircle' is declared but its value is never read.
