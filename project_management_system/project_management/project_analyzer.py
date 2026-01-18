@@ -28,7 +28,22 @@ logger = logging.getLogger(__name__)
 class ProjectAnalyzer:
     def __init__(self):
         # Load the pool of keys
-        self.api_keys = getattr(settings, 'GEMINI_KEY_POOL', [settings.GEMINI_API_KEY])
+        # Load the pool of keys
+        import json
+        pool_val = getattr(settings, 'GEMINI_KEY_POOL', "[]")
+        if isinstance(pool_val, str):
+            try:
+                self.api_keys = json.loads(pool_val)
+            except:
+                self.api_keys = []
+        else:
+            self.api_keys = pool_val
+
+        # Fallback if empty and single key exists
+        if not self.api_keys:
+            single = getattr(settings, 'GEMINI_API_KEY', None)
+            if single:
+                self.api_keys = [single]
         self.current_key_index = 0
         
         # Initialize with the first key
