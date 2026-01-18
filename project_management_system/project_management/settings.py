@@ -48,12 +48,14 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:5173",  # React's development server
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
-# This is an optional setting to allow credentials (like cookies and headers)
-CORS_ALLOW_CREDENTIALS = True
+# CORS_ALLOWED_ORIGINS = [
+#     "http://localhost:5173",
+#     "https://collage-project-main-zkm2-8y5yr4czk-avinashs-projects-df1b1dea.vercel.app",
+# ]
+
+# CORS_ALLOW_CREDENTIALS = True
 
 ROOT_URLCONF = 'project_management.urls'
 TEMPLATES = [
