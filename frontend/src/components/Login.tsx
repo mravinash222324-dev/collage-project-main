@@ -74,12 +74,13 @@ const Login: React.FC = () => {
       } else {
         navigate("/student-dashboard");
       }
-    } catch (err) {
+    } catch (err: any) {
+      console.error("Login Error Details:", err);
       toast({
         title: "Login Failed",
-        description: "Invalid username or password. Try again.",
+        description: err.response?.data?.detail || err.message || "Connection failed. Check console.",
         status: "error",
-        duration: 4000,
+        duration: 5000,
         isClosable: true,
         position: "top",
       });
