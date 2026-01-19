@@ -41,6 +41,18 @@ class Migration(migrations.Migration):
                 ('final_report_content', models.TextField(blank=True, null=True)),
                 ('progress_percentage', models.IntegerField(default=0)),
                 ('ai_resume_points', models.JSONField(blank=True, null=True)),
+                ('trend_score', models.FloatField(default=0.0)),
+            ],
+        ),
+        migrations.CreateModel(
+            name='StudentActivityLog',
+            fields=[
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('action', models.CharField(max_length=255)),
+                ('details', models.JSONField(blank=True, null=True)),
+                ('timestamp', models.DateTimeField(auto_now_add=True)),
+                ('project', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, related_name='student_activity_logs', to='authentication.project')),
+                ('student', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='activity_logs', to=settings.AUTH_USER_MODEL)),
             ],
         ),
         migrations.CreateModel(
@@ -174,6 +186,7 @@ class Migration(migrations.Migration):
                 ('ai_summary', models.TextField(blank=True, null=True)),
                 ('ai_similarity_report', models.JSONField(blank=True, null=True)),
                 ('ai_suggested_features', models.TextField(blank=True, null=True)),
+                ('logical_fingerprint', models.JSONField(blank=True, null=True)),
                 ('group', models.ForeignKey(blank=True, null=True, on_delete=django.db.models.deletion.SET_NULL, to='authentication.group')),
                 ('student', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, related_name='submissions', to=settings.AUTH_USER_MODEL)),
             ],
